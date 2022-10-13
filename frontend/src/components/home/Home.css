@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+.banner{
+    background: url("../../images/background0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner>p{
+    font-family: "Roboto";
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+.banner>h2{
+    font-family:"Chilanka";
+    font-size: 2rem;
+    font-weight: 900;
+}
+.banner>a>button{
+    padding: 20px 40px;
+    font-family: Droid Sans;
+    border-radius: 20px;
+    border-color: aliceblue;
+    font-size: 1.3rem;
+    transition: all 0.4s;
+
+}
+.banner>a>button:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+
+}
+.productheading{
+    font-family: "Roboto";
+    font-size: 2rem;
+    width: 50vw;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.productimage{
+    width: 250px;
+    height: 480px;
+    transition: all 0.4s;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    padding: 20px 100px;
+}
+.productimage:hover{
+    transform: scale(1.1) translateY(-10px) rotate(5deg);
+}
