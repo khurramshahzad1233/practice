@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34c8b3fd.css",
+    "main.js": "/static/js/main.b27ebde5.js",
+    "static/media/background0.jpg": "/static/media/background0.8b8425e1eb7f23fb9d97.jpg",
+    "static/media/playstore.png": "/static/media/playstore.82b4831979e0ce7c733e.png",
+    "static/media/Appstore.png": "/static/media/Appstore.d0c5839937e3c36285f6.png",
+    "index.html": "/index.html",
+    "main.34c8b3fd.css.map": "/static/css/main.34c8b3fd.css.map",
+    "main.b27ebde5.js.map": "/static/js/main.b27ebde5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c8b3fd.css",
+    "static/js/main.b27ebde5.js"
+  ]
+}
